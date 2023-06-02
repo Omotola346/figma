@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+header h2{
+   background-image: linear-gradient(180deg, black, rgb(0,37,135));
+   -webkit-background-clip: text;
+   color: transparent;
+   font-weight: 700;
+   font-size: 2rem;
+   margin-left: 10rem;
+   margin-top: 1rem;
+}
+.contact{
+    display: flex;
+    padding-top: 1rem;
+    margin-right: 10rem;
+}
+.contact i{
+    color: gray;
+    margin-right: 1rem;
+    font-size: 22px;
+}
+.contact p{
+    padding-right: 1rem;
+}
+.contact p:nth-of-type(1){
+    color: gray;
+}
+.contact div:nth-of-type(2) p:nth-of-type(2){
+    color: rgb(7,53,182);
+    font-weight: 550;
+}
+.contact button{
+    color: rgb(7, 53, 181);
+    font-weight: 600;
+    border: 1px solid rgb(7,53,182);
+    background-color: white;
+    width: 8rem;
+    cursor: pointer;
+}
+.contact button:hover{
+    color: white;
+    background-color:rgb(7,53,182) ;
+    transition: 1s;
+}
+nav{
+    display: flex;
+    background-image: linear-gradient(rgb(0,37,135) ,black);
+    height: 2.5rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+nav div{
+    display: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+nav i{
+    color: white;
+    cursor: pointer;
+    margin-right: 4rem;
+}
+.safe{
+    background-image: url(./fig-images/pexels-kateryna-babaieva-2760241.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    padding-top: 10rem;
+    height: 90vh;
+}
+.safe div{
+    margin-left: 5rem;
+}
+.safe div h2{
+    font-size: 3.5rem;
+}
+.safe p{
+    font-size: 1.8rem;
+}
+.safe button{
+    background-color: transparent;
+    color: yellow;
+    border: 1.5px solid yellow;
+    padding: 0.5rem;
+    width: 8rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.safe button:hover{
+    transform: scale(1.05);
+    transform: 1s;
+}
+.electro{
+    display: flex;
+    padding: 3rem;
+    background-color: rgb(237,237,237);
+}
+.electro div{
+    width: 50%;
+    margin-right: 6rem;
+    margin-left: 1rem;
+}
+.electro h2{
+    font-size: 2.5rem;
+}
+.electro p{
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+.electro img{
+    height: 18rem;
+    width: 25rem;
+}
+.electro button{
+    background-color: rgb(7,53,182);
+    color: white;
+    border: none;
+    width: 8rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.electro button:hover{
+    transform: scale(1.0);
+    transition: 1s;
+    background-color: transparent;
+    color: rgb(7,53,182);
+    border: 1.2px solid rgb(7,53,182);
+}
+.service{
+    width: 100%;
+    padding: 3rem;
+}
+.service h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.rndc{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.rndc i{
+    color: yellow;
+}
+.reside{
+    background-image: url(./fig-images/pexels-amar-saleem-70441.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   height: 52vh;
+   border-radius: 10px;
+   width: 35%;
+   text-align: center;
+   position: relative;
+}
+.reside a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.reside div{
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(7,53,182);
+    width: 100%;
+    height: 2.4rem;
+    opacity: 0.8;
+    border: none;
+    padding-top: 0.4rem;
+    border-radius: 10px;
+}
+.comm{
+    background-image: url(./fig-images/fig4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 52vh;
+   border-radius: 10px;
+   width: 35%;
+   text-align: center;
+   position: relative;
+}
+.comm a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.comm div{
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(7,53,182);
+    width: 100%;
+    height: 2.4rem;
+    opacity: 0.8;
+    border: none;
+    padding-top: 0.4rem;
+    border-radius: 10px;
+}
+.offer{
+    background-color:rgb(237,237,237) ;
+    text-align: center;
+    padding-top: 2rem;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.offer h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.offer p:nth-of-type(1){
+    font-size: 1.2rem;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+.info i{
+    color: gray;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.info div{
+    width:32%;
+}
+.info h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.info p{
+    color: rgb(69, 69, 69);
+    line-height: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.projects{
+    text-align: center;
+    padding: 3rem;
+}
+.projects div{
+    display: flex;
+    justify-content: space-between;
+}
+.projects img{
+    width: 30%;
+}
+.projects h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.review{
+    text-align: center;
+    background-color:rgb(237,237,237) ;
+    padding: 2rem;
+}
+#rev{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+#rev div{
+    width: 25%;
+    border: 1px solid rgb(161, 159, 159);
+    padding: 1rem;
+}
+#rev img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+footer{
+    background-image: url(./fig-images/pexels-pixabay-41949.jpg);
+    background-position: right;
+    background-size: cover;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+footer p{
+    margin-bottom: 1rem;
+    width: 25rem;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer div:nth-of-type(2) {
+display: flex;
+flex-direction: column;
+}
+footer h4{
+    margin-bottom: 1rem;
+}
+footer input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-right: 6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+footer .subscribe-holder{
+    position: relative;
+}
+footer button{
+    background-color: rgb(7,53,182);
+    border: none;
+    width: 5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 3.2rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer div:nth-last-child(1) i{
+color: white;
+font-size: 1.8rem;
+margin-left: 1rem;
+transition: 1s;
+}
+footer div:nth-last-child(1) i:hover{
+    color: grey;
+    transition: 1s;
+}
+@media (max-width:890px) {
+    .container{
+        overflow-x: hidden;
+    }
+    header h2{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .contact{
+        margin-right: 2rem;
+    }
+    .safe {
+    padding-top: 15rem;
+    background-position: center;
+    }
+    .electro div{
+        width: 50%;
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+    .electro h2{
+        font-size: 2rem;
+    }
+    .electro p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .electro button:hover{
+        transform: none;
+        color: white;
+    background-color: rgb(7,53,182);
+    }
+    .service{
+        padding: 0;
+    }
+    .rndc{
+        flex-direction: column;
+    }
+    .reside{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 3rem;
+        position: relative;
+    }
+    .reside div{
+        position: absolute;
+        bottom: 0;
+    }
+    .comm{
+        margin: auto;
+        width: 60%;
+        background-size: cover;
+        position: relative;
+    }
+    .comm div{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .info{
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .info div{
+        width: 45% ;
+    }
+    .info div:nth-last-of-type(1){
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .projects div{
+        flex-wrap: wrap;
+    }
+    .projects img{
+        width: 40%;
+    }
+    .projects img:nth-last-of-type(1){
+        margin: auto;
+        margin-top: 3rem;
+    }
+    #rev{
+        flex-wrap: wrap;
+    }
+    #rev div{
+        width: 45%;
+    }
+    #rev div:nth-last-of-type(1){
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:600px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .contact{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    nav div{
+        display: block;
+    }
+    header h2{
+        margin-left: 7rem;
+    }
+    .safe{
+        background-position: center;
+        height: 90vh;
+        padding-top: 10rem;
+    }
+    .safe div{
+        margin-left: 3rem
+    }
+    .safe div h2{
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+    .safe p{
+        font-size: 1.5rem;
+    }
+    .safe button:hover{
+        transform: none;
+    }
+    .electro{
+        flex-direction: column;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .electro div{
+        width: 86%;
+        padding: 0;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+    .electro h2{
+        font-size: 2rem;
+    }
+    .electro button:hover{
+        transform: none;
+        background-color:rgb(7,53,182) ;
+        color: white;
+        border: none;
+    }
+    .electro img{
+        width: 18rem;
+        height: 13rem;
+        margin-left: 2rem;
+    }
+    .service h2{
+        margin-top: 2rem;
+    }
+    .rndc{
+        flex-direction: column;
+        margin-bottom: 1rem;
+        padding: 3rem;
+    }
+    .reside{
+        width: 100%;
+        margin-bottom: 5rem;
+        animation: none;
+    }
+    .reside div{
+        margin-top: 19.5rem;
+    }
+    .comm{
+        width: 100%;
+    }
+    .comm div{
+        margin-top: 20rem;
+    }
+    .info{
+        flex-direction: column;
+        padding: 0;
+    }
+    .info h3{
+        text-align: center;
+    }
+    .info div{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .info p{
+        text-align: left;
+    }
+    .projects div{
+        flex-direction: column;
+    }
+    .projects img{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .projects h2{
+        font-size: 1.5rem;
+    }
+.review{
+    padding: 3rem;
+}
+ #rev{
+    flex-direction: column;
+    margin-left: 0;
+ }   
+ #rev div{
+    width: 100%;
+    margin-bottom: 2rem;
+ }
+ footer{
+    flex-direction: column;
+ }
+ footer div{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+ }
+ footer p{
+    width: 15rem;
+ }
+ footer button{
+    right: 0.8rem;
+ }
+}
